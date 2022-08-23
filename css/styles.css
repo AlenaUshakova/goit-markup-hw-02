@@ -157,7 +157,8 @@ body {
   background-color: #f5f4fa;
   cursor: pointer;
 }
-.page-button:hover {
+.page-button:hover,
+.page-button:focus {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
 }
